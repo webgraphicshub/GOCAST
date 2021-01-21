@@ -114,12 +114,12 @@ MOBILE
 
 @media screen and (max-width:767px) {
  	.sf-menu > li{ width:100%; padding:2px 0 2px 0 ; }
-	.sf-menu > li > a { font-family: 'Bebas'; font-size:15px; color:#fff; line-height:17px; font-weight:400;  }
+	.sf-menu > li > a { font-family:'Josefin Sans Regular'; font-size:15px; color:#fff; line-height:17px; font-weight:400;  }
     .sf-menu > li > a > img { display: none; }
 	
 /* nav-wrap */
         #nav-wrap {
-                position: relative;
+                /*position: relative;*/
 				border:none;
 				box-shadow:none;
 				border-radius:3px;
@@ -128,7 +128,7 @@ MOBILE
  
 /* menu icon */
         #menu-icon {
-			background:url(../images/menu-icon.png) 50% 50% no-repeat; display:block; width:31px; height:31px; text-indent:-9999999em; padding:0; overflow:hidden; cursor:pointer; z-index:1000; position:absolute; top:-5px; left:20px;  
+			background:url(../images/menu-icon.png) 50% 50% no-repeat; display:block; width:31px; height:31px; text-indent:-9999999em; padding:0; overflow:hidden; cursor:pointer; z-index:1000; position:absolute; bottom:16px; left:20px;  
         }
 		
 .sf-menu > li:hover,
@@ -142,19 +142,19 @@ MOBILE
         .sf-menu {
                 clear: both;
                 position:absolute;
-                top:35px;
-                width:166px;
+                top:127px;
+                width:100%;
                 z-index: 10000;
                 padding: 0 0 0 0;
                 background: #223750;        
                 display: none; /* visibility will be toggled with jquery */
-				font-family: 'Bebas'; font-weight:400;
+				font-family:'Josefin Sans Regular'; font-weight:400;
 				left:12px;
                 border-radius: 0 0 3px 3px;
                 -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
                 -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
                 box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
-                border-bottom: 2px solid #dcdcdc; 
+                
         }
         .sf-menu li {
                 clear: both;
@@ -166,7 +166,7 @@ MOBILE
         }
         .sf-menu li a span { padding-top: 0; }
 		.sf-menu li ul{ background:none; box-shadow:none;}
-		.sf-menu li a:hover{ color: #f22f59; margin-left: 5px;  }
+		.sf-menu li a:hover{ color:#FF5300; margin-left: 5px;  }
 		.sf-menu li:hover{ box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3); -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3); -moz-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3); box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3); -o-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3); } /* optional */
 	
 		.sf-menu li ul li a{ background:none !important; }
@@ -215,7 +215,7 @@ MOBILE
 
 
 @media screen and (max-width:500px){
-#menu-icon { top: -4px; }
-.sf-menu { top: 27px; }
+/*#menu-icon { top: -4px; }
+.sf-menu { top: 27px; }*/
 }
 
