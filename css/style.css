@@ -260,12 +260,74 @@ ul{ padding:0; margin:0; list-style:none; }
 
 /*-------Episode Start-------*/
 .latest-product .big-block .top.center{ justify-content:center; }
+/*-------Episode End-------*/
+
+/*-------Blog Start-------*/
+.blog-post .big-blocks .box{ margin:0 20px 50px 0; padding:32px 30px; background:#fff; box-sizing:border-box; box-shadow:0px 0px 22px 0px rgba(0, 0, 0, 0.09); }
+.blog-post .big-blocks .slick-slide > div{ padding:20px 20px; }
+.blog-post .big-blocks .box .top-text{ margin:0; padding:0; position:relative; }
+.blog-post .big-blocks .box .top-text:before{ position:absolute; content:""; width:4px; height:45px; background:#FF5300; left:-30px; top:0; }
+.blog-post .big-blocks .box .top-text h3{ font-family:'Josefin Sans Regular'; font-size:16px; line-height:18px; font-weight:400; color:#FF5300; margin:0; padding:0 0 7px 0; }
+.blog-post .big-blocks .box .top-text h3 span{ color:#ACACAC; padding-left:14px; font-size:14px; }
+.blog-post .big-blocks .box .top-text h4{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#ACACAC; margin:0; padding:0; }
+.blog-post .big-blocks .box h2{ font-family:'Josefin Sans SemiBold'; font-size:24px; line-height:34px; font-weight:600; color:#222222; margin:0; padding:22px 0 15px 0; }
+.blog-post .big-blocks .box p{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#777777; margin:0; padding:0px 0 39px 0; }
+.blog-post .big-blocks .box a{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#FF5300; margin:0; padding:10px 25px 9px 25px; display:inline-block; border:1px solid #FF5300; border-radius:3px; transition:all .4s ease; }
+.blog-post .big-blocks .box a:hover{ color:#fff; background:#FF5300; }
+.blog-post .big-blocks .slick-prev.slick-arrow{ text-indent:-9999px; background:none; border:none; background:url(../images/arrow-left.png) no-repeat center; padding:0 10px 0 10px; position:absolute; bottom:0; left:47%; z-index:3; }
+.blog-post .big-blocks .slick-next.slick-arrow{ text-indent:-9999px; background:none; border:none; background:url(../images/arrow-right.png) no-repeat center; padding:0 10px 0 10px; position:absolute; bottom:0; right:47%; }
+/*-------Blog End-------*/
+
+/*-------Second Blog Start-------*/
+.programmer{ margin:0; padding:67px 0 47px 0; }
+.programmer .text-block{ margin:0 auto; padding:0; max-width:800px; }
+.programmer .text-block h2{ font-family:'Josefin Sans SemiBold'; font-size:32px; line-height:44px; font-weight:600; color:#222222; margin:0; padding:0 0 27px 0; }
+.programmer .text-block ul{ margin:0; padding:0; display:flex; align-items:center; }
+.programmer .text-block ul li{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:18px; font-weight:400; color:#ACACAC; margin:0; padding:0 11px 34px 0; }
+.programmer .text-block ul li:nth-child(1){ color:#FF5300; font-size:16px; }
+.programmer .text-block p{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#555555; margin:0; padding:0 11px 26px 0; }
+
+.programmer .bottom{ margin:0 auto; padding:35px 35px; max-width:800px; border-left:1px solid #E5E5E5; }
+.programmer .bottom p{ font-family:'Josefin Sans Mediumn'; font-size:22px; line-height:32px; font-weight:500; color:#222222; font-style:italic; margin:0; padding:0; }
+
+
+
+.the-reason{ margin:0; padding:0 0 37px 0; }
+.the-reason .big-block{ margin:0 auto; padding:0; max-width:800px; }
+.the-reason .big-block .text{ margin:0; padding:0; }
+.the-reason .big-block .text h2{ font-family:'Josefin Sans SemiBold'; font-size:22px; line-height:24px; font-weight:600; color:#222222; margin:0; padding:0 0 50px 0; }
+.the-reason .big-block .text h3{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#555555; margin:0; padding:0 0 22px 0; }
+.the-reason .big-block .text p{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#555555; margin:0; padding:0 0 25px 22px; position:relative; }
+.the-reason .big-block .text p:before{ position:absolute; content:""; width:12px; height:12px; border-radius:50%; background:#FF5300; left:0; top:5px; }
+.the-reason .big-block .man-section{ margin:0; padding:0; }
+.the-reason .big-block .man-section h2{ font-family:'Josefin Sans SemiBold'; font-size:24px; line-height:26px; font-weight:600; color:#222222; margin:0; padding:0 0 31px 0; }
+.the-reason .big-block .man-section .man-block{ margin:0 auto; padding:0 46px; max-width:650px; display:flex; align-items:center; border-left:1px solid #E5E5E5; border-right:1px solid #E5E5E5; }
+.the-reason .big-block .man-section .man-block .lt-block{ margin:0; padding:0; }
+.the-reason .big-block .man-section .man-block .rt-block{ margin:0; padding:0 0 0 14px; }
+.the-reason .big-block .man-section .man-block .rt-block h3{ font-family:'Josefin Sans SemiBold'; font-size:16px; line-height:18px; font-weight:600; color:#222222; margin:0; padding:0 0 5px 0; }
+.the-reason .big-block .man-section .man-block .rt-block p{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#555555; margin:0; padding:0 0 5px 0; }
+.the-reason .big-block .man-section .man-block .rt-block .bottom{ margin:0; padding:16px 0px 0 0px; display:flex; align-items:center; justify-content:space-between; }
+.the-reason .big-block .man-section .man-block .rt-block .bottom a{ font-family:'Josefin Sans Regular'; font-size:12px; line-height:13px; font-weight:400; color:#FF5300; margin:0; padding:6px 26px 5px 13px; display:inline-block; border:1px solid #FF5300; border-radius:2px; background:url(../images/forward-arrow.png) no-repeat 92% center; }
+.the-reason .big-block .man-section .man-block .rt-block .bottom h4{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:15px; font-weight:400; color:#222222; margin:0; padding:0; }
+
+
+
+.leave{ margin:0; padding:0; }
+.leave .biggest{ margin:0 auto; padding:0; max-width:800px; }
 
 
 
 
 
 
+.checkbox-section { display: flex; align-items: center; padding: relative;}
+
+.checkbox-section p{ padding: 0 0 0 10px; margin: 0 }
+
+.checkbox-section p:before { content: ""; position: absolute; width: 13px; height: 13px; border:1px solid #FF5300; background: white; top:6px;
+left: 15px; }
+.checkbox-section input[type="checkbox"] { width: 13px; height: 13px; position: relative; z-index: 5; opacity: 0}
+.checkbox-section input[type="checkbox"]:checked ~ p:before{ background: #FF5300 }
 
 
 
@@ -373,6 +435,8 @@ body { -webkit-text-size-adjust:none; }
 .man-section .block .text-section h2{ font-size:24px; line-height:32px; }
 .home-slider{ margin:0; }
 
+.blog-post .big-blocks .box{ margin:0 0px 50px 0; }
+
 }
 
 @media screen and (max-width:575px){
@@ -416,6 +480,8 @@ body { -webkit-text-size-adjust:none; }
 .icon-section .text h2{ font-size:22px; line-height:24px; }
 .home-slider .description .text h1{ font-size:26px; line-height:18px; }
 .man-section .block .text-section p{ font-size:14px; line-height:22px; }
+
+.blog-post .tex h2{ padding:0 0 14px 0; }
 
 }
 
