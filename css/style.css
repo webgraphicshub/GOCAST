@@ -78,18 +78,11 @@ ul{ padding:0; margin:0; list-style:none; }
 
 
 /* ___________________ Header Starts _______________________*/
-.navbar-default{ padding:40px 0 10px 0; margin:0; background:none; border:none; transition: all 600ms ease-in-out; background:#F7F8FA; }
+.navbar-default{ padding:40px 0 10px 0; margin:0; background:none; border:none; transition: all 600ms ease-in-out; z-index:2; }
 .navbar-default .logo-block{ margin:0; padding:0; }
 .navbar-default .logo-block a{ display:inline-block; }
 .navbar-default .rt-block{ margin:0; padding:0; display:flex; align-items:center; }
 .navbar-default .rt-block .mid-block{ margin:0; padding:0; }
-
-
-
-
-
-
-
 
 .navbar-default .rt-block .last-block{ margin:0; padding:0; display:flex; }
 .navbar-default .rt-block .last-block .lt-side{ margin:0 0 0 32px; padding:0; }
@@ -102,7 +95,7 @@ ul{ padding:0; margin:0; list-style:none; }
 
 
 /* ___________________ Banner Starts _______________________*/
-.home-slider{ margin:0; padding:0; position:relative; }
+.home-slider{ margin:-90px 0 0 0; padding:0; position:relative; z-index:1; }
 .home-slider .banner{ margin:0; padding:0; }
 .home-slider .banner img{ width:100%; }
 
@@ -159,7 +152,7 @@ ul{ padding:0; margin:0; list-style:none; }
 
 
 /* ___________________ Blog Post Starts _______________________*/
-.blog-post{ margin:0; padding:97px 0 0 0; }
+.blog-post{ margin:0; padding:97px 0 60px 0; }
 .blog-post .tex{ margin:0; padding:0 0 36px 0; text-align:center; }
 .blog-post .tex h2{ font-family:'Josefin Sans SemiBold'; font-size:32px; line-height:34px; font-weight:600; color:#222222; margin:0; padding:0; }
 .blog-post .big-blocks{ margin:0; padding:0 0 0px 0; }
@@ -190,7 +183,7 @@ ul{ padding:0; margin:0; list-style:none; }
 
 
 /* ___________________ Subscribe Starts _______________________*/
-.subscribe{ margin:0; padding:0 0 60px 0; text-align:center; }
+.subscribe{ margin:0; padding:40px 0 60px 0; text-align:center; }
 .subscribe .block{ margin:0; padding:0; }
 .subscribe .block .row{ justify-content:center; }
 .subscribe .block .top-text{ margin:0; padding:0; }
@@ -227,8 +220,58 @@ ul{ padding:0; margin:0; list-style:none; }
 .footer .bottom{ margin:0; padding:0; text-align:center; }
 .footer .big-block .box .big-box .images a{ display:inline-block; padding:7px 10px 7px 10px; margin:0; border:1px solid #E5E5E5; border-radius:5px; }
 .footer .bottom h5{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#999999; margin:0; padding:51px 0 0 0; }
-
 /* ___________________ Footer End _______________________*/
+
+
+/*--------------Inner Page Start---------------*/
+
+/*-------About Us Start-------*/
+.home-slider .description{ margin:0 auto; padding:0; width:100%; position:absolute; left:0; right:0; bottom:40%; }
+.home-slider .description .text{ margin:0; padding:0; text-align:center; }
+.home-slider .description .text h1{ font-family:'Josefin Sans SemiBold'; font-size:52px; line-height:42px; font-weight:600; color:#222222; margin:0 0 10px 0; padding:0; display:inline-block; border-bottom:2px solid #000; }
+.home-slider .description .text h3{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#555555; margin:0; padding:0; }
+
+.man-section{ margin:0; padding:0; }
+.man-section .block{ margin:-88px 0 0 0; padding:0; display:flex; position:relative;z-index:3; }
+.man-section .block .image-section{ margin:0; padding:0; }
+.man-section .block .text-section{ margin:0; padding:142px 0 0 0; }
+.man-section .block .text-section h2{ font-family:'Josefin Sans SemiBold'; font-size:32px; line-height:44px; font-weight:600; color:#222222; margin:0; padding:0 0 41px 0; position:absolute; left:29%; top:20%; }
+.man-section .block .text-section .bottom{ margin:0; padding:120px 0 0 40px; }
+.man-section .block .text-section p{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#777777; margin:0; padding:0 0 26px 0; }
+
+.icon-section{ margin:0; padding:97px 0 45px 0; }
+.icon-section .text{ margin:0; padding:0 0 50px 0; text-align:center; }
+.icon-section .text h2{ font-family:'Josefin Sans SemiBold'; font-size:32px; line-height:34px; font-weight:600; color:#222222; margin:0; padding:0; }
+.icon-section .big-block{ margin:0 auto; padding:0; max-width:800px; }
+.icon-section .big-block .block{ display:flex; justify-content:space-between; margin:0 0 25px 0; padding:0; }
+.icon-section .big-block .block:nth-child(2){ max-width:700px; margin:0 auto; }
+
+.video{ margin:0; padding:55px 0 0 0; }
+.video .top{ margin:0; padding:0; text-align:center; }
+.video .top h2{ font-family:'Josefin Sans SemiBold'; font-size:32px; line-height:34px; font-weight:600; color:#222222; margin:0; padding:0 0 31px 0; }
+.video .top p{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#777777; margin:0; padding:0 0 50px 0; }
+.video .top p span{ display:block; }
+.video .bottom{ margin:0; padding:0; }
+.video .bottom .blockss{ margin:0; padding:0; position:relative; text-align:center; }
+.video .bottom .blockss span{ position:absolute; left:0; right:0; bottom:40%; margin:0 auto; }
+.video .bottom .blockss span img{ width:8%; }
+/*-------About Us End-------*/
+
+
+/*-------Episode Start-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -251,41 +294,60 @@ body { -webkit-text-size-adjust:none; }
 }
 
 @media screen and (max-width: 1199px){
+.home-slider .desc{ bottom:10%; }
 .home-slider .desc .text-block .top h2{ padding:0 0 10px 34px; }
 .home-slider .desc .text-block .top h1{ font-size:30px; line-height:32px; }
 .home-slider .desc .text-block .mid-block{ padding:16px 0 10px 0; }
 .home-slider .desc .text-block .bottom h2{ padding:0 32px 16px 0; }
 .sf-menu > li:last-child{ padding:0; }
 .sf-menu a{ padding-left:10px; }
-
+.latest-product .big-block{ margin:-24px 0 0 0; }
 .blog-post{ padding:50px 0 0 0; }
 .blog-post .tex{ padding:0 0 16px 0; }
 .blog-post .big-blocks .blog-box .box{ padding:20px 20px; }
 .blog-post .big-blocks .blog-box .box .top-text::before{ left:-20px; }
-
 .instagram-feed{ padding:50px 0 60px 0; }
+
+.home-slider .description{ bottom:25%; }
+.man-section .block{ margin:-50px 0 0 0; }
+.man-section .block .text-section h2{ left:34%; top:16%; }
+.man-section .block .text-section .bottom{ padding:80px 0 0 40px; }
+.subscribe{ padding:40px 0 60px 0; }
+.video .bottom .blockss img{ width:100%; }
+
+
 
 }
 @media screen and (max-width: 991px){
+.home-slider .banner.about{ display:block; }
 .sf-menu a{ padding-left:0; }
+.navbar-default{ background:#F6F7F9; }
 .navbar-default .logo-block{ padding:0 0 10px 0; }
+.home-slider{ margin:0; }
 .home-slider .banner{ display:none; }
 .home-slider .banner-second{ display:block; }
 .home-slider{ z-index:1; margin:-40px 0 0 0; }
 .home-slider .desc{ position:initial; background:#F6F7F9; padding:20px 0 40px 0; }
 .navbar-default{ z-index:2; }
-
 .latest-product{ padding:50px 0 0 0; }
 .latest-product .big-block{ margin:0; }
 .latest-product .big-block .mid-blocks{ padding:0 0 20px 0; }
-
 .blog-post .big-blocks .blog-box .slick-prev.slick-arrow{ left:46%; }
 .blog-post .big-blocks .blog-box .slick-next.slick-arrow{ right:46%; }
-
-.subscribe{ padding:0 0 30px 0; }
-
+.subscribe{ padding-bottom:20px; }
 .footer .big-block{ flex-direction:column; padding:0; }
 .footer .big-block .box{ padding-bottom:40px; }
+
+.man-section{ padding:30px 0 0 0; }
+.man-section .block{ margin:0; flex-direction:column; }
+.man-section .block .text-section h2{ position:initial; padding:0 0 20px 0; }
+.man-section .block .text-section .bottom{ padding:0; }
+.man-section .block .text-section{ padding:42px 0 0 0; }
+.icon-section{ padding:40px 0 45px 0; }
+.man-section .block .text-section p{ padding-bottom:18px; }
+.video .top p span{ display:initial; }
+.video .bottom .blockss span img{ width:12%; }
+.icon-section .big-block .block img{ width:100%; }
 
 }
 
@@ -293,34 +355,46 @@ body { -webkit-text-size-adjust:none; }
 /*NEW GRID SYSTEM*/
 @media screen and (max-width:768px){
 .navbar-default .container{ justify-content:center; }
-
 .home-slider .desc .text-block .mid-block img{ width:100%; }
 .home-slider .desc .text-block .bottom .big-box{ flex-direction:column; }
 .home-slider .desc .text-block .bottom .big-box .box{ margin-bottom:20px; }
-
 .latest-product .big-block .top h2{ padding-bottom:20px; }
 .latest-product .big-block .top{ flex-direction:column; }
-
 .blog-post .big-blocks .blog-box .slick-next.slick-arrow{ right:45%; }
 .blog-post .big-blocks .blog-box .slick-prev.slick-arrow{ left:45%; }
 .blog-post .big-blocks .blog-box{ padding:0 0 24px 0; }
+.home-slider .description .text h1{ font-size:32px; line-height:22px; }
+
+.icon-section .big-block .block a{ display:inline-block; margin:0 8px; }
+.icon-section .text{ padding:0 0 20px 0; }
+.video{ padding:5px 0 0 0; }
+.video .top h2{ font-size:22px; line-height:24px; padding:0 0 15px 0; }
+.video .top p{ padding:0 0 30px 0; }
+.man-section .block .text-section h2{ font-size:24px; line-height:32px; }
+.home-slider{ margin:0; }
 
 }
 
 @media screen and (max-width:575px){
 .latest-product .big-block .top h2{ font-size:26px; line-height:28px; }
 .latest-product .big-block{ padding:30px 20px; }
-
 .subscribe .block .top-text p span{ display:inline; }
+
+.man-section .block .image-section img{ width:100%; }
 
 }
 
 @media screen and (max-width:500px){
 .home-slider .desc .text-block .top h1 span{ display:inline; }
 .home-slider .desc .text-block .top h1{ font-size:23px; line-height:26px; }
-
 .blog-post .big-blocks .blog-box .slick-next.slick-arrow{ right:42%; }
 .blog-post .big-blocks .blog-box .slick-prev.slick-arrow{ left:42%; }
+
+.man-section .block .text-section h2{ font-size:18px; line-height:26px; padding:0 0 10px 0; }
+.video .top h2{ font-size:18px; line-height:20px; }
+.video .top p{ font-size:14px; line-height:22px; }
+.subscribe .block .top-text h2{ font-size:22px; line-height:24px; }
+.icon-section .big-block .block a{ margin:0 6px; }
 
 }
 
@@ -329,18 +403,19 @@ body { -webkit-text-size-adjust:none; }
 .navbar-default .rt-block .last-block .rt-side{ margin:0 0 0 4px; }
 .latest-product .big-block .top h2{ font-size:20px; line-height:22px; }
 .latest-product .big-block .top{ padding-bottom:30px; }
-
 .blog-post .big-blocks .blog-box .box{ padding:14px 14px; }
 .blog-post .big-blocks .blog-box .box h2{ font-size:20px; line-height:25px; }
 .blog-post .big-blocks .blog-box .box p{ padding-bottom:24px; }
 .blog-post .big-blocks .blog-box .box .top-text::before{ left:-14px; }
 .blog-post .tex{ padding:0; }
-
 .subscribe .block .top-text h2{ font-size:22px; line-height:22px; }
-
 .footer .big-block .box p span{ display:inline; }
 .footer .big-block .box .top-text h2{ padding:0 0 10px 0; }
 .footer .big-block .box ul li a{ line-height:30px; }
+
+.icon-section .text h2{ font-size:22px; line-height:24px; }
+.home-slider .description .text h1{ font-size:26px; line-height:18px; }
+.man-section .block .text-section p{ font-size:14px; line-height:22px; }
 
 }
 
@@ -352,17 +427,5 @@ body { -webkit-text-size-adjust:none; }
 
 .latest-product .big-block .mid-blocks .block .box h3{ font-size:19px; line-height:24px; }
 .subscribe .block .search-bar form .btn{ position:initial; padding:12px 58px 10px 28px; }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

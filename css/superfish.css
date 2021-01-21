@@ -83,7 +83,7 @@
 	transition: none;
 }
 .sf-menu li a:hover{ color:#FF5300; }
-.sf-menu li a.active{ color:#FF5300; }
+.sf-menu li a.active{ color:#FF5300; border-bottom:1px solid #EE5300; }
 .sf-menu ul li{ padding:10px 0 !important; margin:0; border-bottom:1px solid rgba(255,255,255,.15); }
 .sf-menu ul li:last-child{ border:none; }
 .sf-menu ul li a{ color:#fff; padding:0 10px 0 24px; background:url(../images/nav-arrow-icon.png) no-repeat 0 3px; }
@@ -149,7 +149,7 @@ MOBILE
                 background: #223750;        
                 display: none; /* visibility will be toggled with jquery */
 				font-family:'Josefin Sans Regular'; font-weight:400;
-				left:12px;
+				left:0px;
                 border-radius: 0 0 3px 3px;
                 -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
                 -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
