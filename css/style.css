@@ -86,11 +86,12 @@ ul{ padding:0; margin:0; list-style:none; }
 
 .navbar-default .rt-block .last-block{ margin:0; padding:0; display:flex; }
 .navbar-default .rt-block .last-block .lt-side{ margin:0 0 0 32px; padding:0; }
-.navbar-default .rt-block .last-block .lt-side a{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#fff; margin:0; padding:10px 34px 9px 34px; border-radius:3px; display:inline-block; background:#FF5300; transition:all .4s ease; }
-.navbar-default .rt-block .last-block .lt-side a:hover{ color:#000; }
+.navbar-default .rt-block .last-block .lt-side a{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#fff; margin:0; padding:10px 34px 9px 34px; border-radius:3px; display:inline-block; background:#FF5300; transition:all .4s ease; border:1px solid #FF5300; }
+.navbar-default .rt-block .last-block .lt-side a:hover{ color:#FF5300; background:#fff; }
 .navbar-default .rt-block .last-block .rt-side{ margin:0 0 0 32px; padding:0; }
-.navbar-default .rt-block .last-block .rt-side a{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#FF5300; margin:0; padding:11px 35px 10px 45px; border-radius:3px; border:1px solid #FF5300; display:inline-block; background:url(../images/paypal-1.png) no-repeat 22px center; transition:all .4s ease; }
-.navbar-default .rt-block .last-block .rt-side a:hover{ color:#000; }
+.navbar-default .rt-block .last-block .rt-side a{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#FF5300; margin:0; padding:9px 35px 8px 20px; border-radius:3px; border:1px solid #FF5300; display:inline-block; transition:all .4s ease; }
+.navbar-default .rt-block .last-block .rt-side a span{ font-size:17px; padding-right:16px; line-height:0; }
+.navbar-default .rt-block .last-block .rt-side a:hover{ color:#FFf; background:#FF5300; }
 /* ___________________ Header End _______________________*/
 
 
@@ -131,8 +132,8 @@ ul{ padding:0; margin:0; list-style:none; }
 .latest-product .big-block{ margin:-65px 0 0 0; padding:60px 65px; box-shadow:0px 0px 22px 0px rgba(0, 0, 0, 0.09); box-sizing:border-box; z-index:2; position:relative; background:#fff; border-radius:8px; }
 .latest-product .big-block .top{ margin:0; padding:0 0 56px 0; display:flex; align-items:center; justify-content:space-between; }
 .latest-product .big-block .top h2{ font-family:'Josefin Sans SemiBold'; font-size:32px; line-height:34px; font-weight:600; color:#222222; margin:0; padding:0; }
-.latest-product .big-block .top a{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin:0; padding:11px 32px 10px 32px; display:inline-block; background:#FF5300; border-radius:3px; transition:all .4s ease; }
-.latest-product .big-block .top a:hover{ color:#000; }
+.latest-product .big-block .top a{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin:0; padding:10px 32px 9px 32px; display:inline-block; background:#FF5300; border-radius:3px; border:1px solid #FF5300; transition:all .4s ease; }
+.latest-product .big-block .top a:hover{ color:#FF5300; background:transparent; }
 .latest-product .big-block .mid-blocks{ margin:0; padding:0 0 50px 0; }
 .latest-product .big-block .mid-blocks .block{ margin:0; padding:0 0 36px 0; }
 .latest-product .big-block .mid-blocks .block .box{ margin:0; padding:0; }
@@ -196,8 +197,17 @@ ul{ padding:0; margin:0; list-style:none; }
 .subscribe .block .top-text p span{ display:block; }
 .subscribe .block .search-bar{ margin:0; padding:0; position:relative; }
 .subscribe .block .search-bar form .form-control{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#C2C2C2; background: #fff; height:60px; border-radius:3px; margin:0 0 27px 0; padding-left:26px; }
-.subscribe .block .search-bar form .btn{ font-family:'Josefin Sans Regular', sans-serif; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin: 0; padding:21px 58px 20px 28px; border-radius:0 3px 3px 0; background:#FF5300 url(../images/white-arrow.png) no-repeat 86% center; position:absolute; top:0; right:0; transition:all .3s ease; }
-.subscribe .block .search-bar form .btn:hover{ color:#373737; background:#FF5300 url(../images/white-arrow.png) no-repeat 90% center; }
+
+.subscribe .block .search-bar form .form-control:focus{ border:1px solid #FF5300; box-shadow:none; outline:none; border-radius:3px; }
+
+
+
+
+
+
+
+.subscribe .block .search-bar form .btn{ font-family:'Josefin Sans Regular', sans-serif; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin: 0; padding:21px 58px 21px 28px; border-radius:0 3px 3px 0; background:#FF5300 url(../images/white-arrow.png) no-repeat 86% center; position:absolute; top:0; right:0; transition:all .3s ease; }
+.subscribe .block .search-bar form .btn:hover{ background:#FF5300 url(../images/white-arrow.png) no-repeat 90% center; }
 /* ___________________ Subscribe End _______________________*/
 
 
@@ -212,7 +222,7 @@ ul{ padding:0; margin:0; list-style:none; }
 .footer .big-block .box .social h2{ font-family:'Josefin Sans Regular'; font-size:16px; line-height:18px; font-weight:400; color:#222222; margin:0; padding:0 0 17px 0; }
 .footer .big-block .box .social .icon{ margin:0; padding:0; display:flex; }
 .footer .big-block .box .social .icon a{ font-size:26px; font-weight:600; color:#FF5300; margin:0 20px  0 0; padding:0; display:inline-block; border:1px solid #FF5300; border-radius:50%; height:50px; width:50px; display:flex; align-items:center; justify-content:center; transition:all .5s ease; }
-.footer .big-block .box .social .icon a:hover{ color:#999999; }
+.footer .big-block .box .social .icon a:hover{ color:#fff; background:#FF5300; }
 .footer .big-block .box .top-text{ margin:0; padding:0; }
 .footer .big-block .box .top-text h2{ font-family:'Josefin Sans Regular'; font-size:16px; line-height:18px; font-weight:400; color:#222222; margin:0; padding:0 0 30px 0; }
 .footer .big-block .box ul{ margin:0; padding:0; }
@@ -224,6 +234,8 @@ ul{ padding:0; margin:0; list-style:none; }
 .footer .bottom{ margin:0; padding:0; text-align:center; }
 .footer .big-block .box .big-box .images a{ display:inline-block; padding:7px 10px 7px 10px; margin:0; border:1px solid #E5E5E5; border-radius:5px; }
 .footer .bottom h5{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#999999; margin:0; padding:51px 0 0 0; }
+.footer .bottom h5 a{ font-family:'Josefin Sans SemiBold'; font-size:16px; line-height:18px; font-weight:600; color:#FF5300; margin:0; padding:0; display:inline-block; transition:all .5s ease; }
+.footer .bottom h5 a:hover{ color:#9d9d9d; }
 /* ___________________ Footer End _______________________*/
 
 
@@ -290,7 +302,6 @@ ul{ padding:0; margin:0; list-style:none; }
 .programmer .text-block ul li{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:18px; font-weight:400; color:#ACACAC; margin:0; padding:0 11px 34px 0; }
 .programmer .text-block ul li:nth-child(1){ color:#FF5300; font-size:16px; }
 .programmer .text-block p{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#555555; margin:0; padding:0 11px 26px 0; }
-
 .programmer .bottom{ margin:0 auto; padding:35px 35px; max-width:800px; border-left:1px solid #E5E5E5; }
 .programmer .bottom p{ font-family:'Josefin Sans Mediumn'; font-size:22px; line-height:32px; font-weight:500; color:#222222; font-style:italic; margin:0; padding:0; }
 
@@ -311,9 +322,13 @@ ul{ padding:0; margin:0; list-style:none; }
 .the-reason .big-block .man-section .man-block .rt-block h3{ font-family:'Josefin Sans SemiBold'; font-size:16px; line-height:18px; font-weight:600; color:#222222; margin:0; padding:0 0 5px 0; }
 .the-reason .big-block .man-section .man-block .rt-block p{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:23px; font-weight:400; color:#555555; margin:0; padding:0 0 5px 0; }
 .the-reason .big-block .man-section .man-block .rt-block .bottom{ margin:0; padding:16px 0px 0 0px; display:flex; align-items:center; justify-content:space-between; }
-.the-reason .big-block .man-section .man-block .rt-block .bottom a{ font-family:'Josefin Sans Regular'; font-size:12px; line-height:13px; font-weight:400; color:#FF5300; margin:0; padding:6px 26px 5px 13px; display:inline-block; border:1px solid #FF5300; border-radius:2px; background:url(../images/forward-arrow.png) no-repeat 92% center; }
+.the-reason .big-block .man-section .man-block .rt-block .bottom a{ font-family:'Josefin Sans Regular'; font-size:12px; line-height:13px; font-weight:400; color:#FF5300; margin:0; padding:6px 17px 5px 13px; display:inline-block; border:1px solid #FF5300; border-radius:2px; transition:all 0.3s ease-in-out; }
+.the-reason .big-block .man-section .man-block .rt-block .bottom a span{ transform: rotateY(180deg); display:inline-block; margin-left: 10px; }
+.the-reason .big-block .man-section .man-block .rt-block .bottom a:hover{ background:#FF5300; color:#fff; }
 .the-reason .big-block .man-section .man-block .rt-block .bottom h4{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:15px; font-weight:400; color:#222222; margin:0; padding:0; }
 
+transform: scaleX(1.2);
+font-size: 10px;
 
 
 .leave{ margin:0; padding:0; }
@@ -341,8 +356,8 @@ left: 15px; }
 .leave .biggest .blok .form-group .form-control::-ms-input-placeholder {  }
 .leave .biggest .blok .form-group .form-control::placeholder {  }
 .leave .biggest .blok .submiit{ margin:0 0 0 15px; padding:0 0 43px 0; }
-.leave .biggest .blok .submiit .btn{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin:0; padding:12px 22px 11px 22px; background:#FF5300; border-radius:3; transition:all 0.3s ease-in-out; }
-.leave .biggest .blok .submiit .btn:hover{ color:#000; }
+.leave .biggest .blok .submiit .btn{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin:0; padding:12px 22px 11px 22px; background:#FF5300; border-radius:3px; border:1px solid #FF5300; transition:all 0.3s ease-in-out; }
+.leave .biggest .blok .submiit .btn:hover{ color:#FF5300; background:transparent; }
 /*-------Second Blog End-------*/
 
 /*-------Contact Us Start-------*/
@@ -352,26 +367,16 @@ left: 15px; }
 .form-section .big-block .form-block{ margin:0 auto; padding:0px 0 0 0; max-width:900px; padding:49px 40px 0 40px; box-sizing:border-box; background:#fff; position:relative; z-index:2; border-radius:8px; box-shadow:0px 0px 22px 0px rgba(0, 0, 0, 0.09); }
 .form-section .big-block .form-block .top-text{ margin:0; padding:0; text-align:center; }
 .form-section .big-block .form-block .top-text h2{ font-family:'Josefin Sans SemiBold'; font-size:32px; line-height:34px; font-weight:600; color:#222222; margin:0; padding:0 0 41px 0; }
-
-
 .form-section .big-block .form-block .form-group{ margin:0 0 50px 0; padding:0; }
 .form-section .big-block .form-block .form-group h3{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#222222; margin:0; padding:0 0 10px 0; }
-
-
 .form-section .big-block .form-block .form-group textarea{ height:132px; resize:none; }
 .form-section .big-block .form-block .form-group .form-control{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#222222; margin:0; border:none; border-bottom:1px solid #E5E5E5; padding-left:0; }
-/*.form-section .big-block .form-block .form-group .form-control:focus{ border:1px solid #FF5300; box-shadow:none; }*/
+.form-section .big-block .form-block .form-group .form-control:focus{ border-bottom:1px solid #FF5300; box-shadow:none; outline:none; border-radius:0; }
 .form-section .big-block .form-block .form-group .form-control::-webkit-input-placeholder {
     border-radius: 0; }
-.form-section .big-block .form-block .form-group .form-control:-moz-placeholder {  }
-.form-section .big-block .form-block .form-group .form-control::-moz-placeholder {  }
-.form-section .big-block .form-block .form-group .form-control:-ms-input-placeholder {  }
-.form-section .big-block .form-block .form-group .form-control::-ms-input-placeholder {  }
-.form-section .big-block .form-block .form-group .form-control::placeholder {  }
 .form-section .big-block .form-block .submiit{ margin:0 0 0 15px; padding:0 0 43px 0; }
-.form-section .big-block .form-block .submiit .btn{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin:0; padding:12px 33px 11px 33px; background:#FF5300; border-radius:3; transition:all 0.3s ease-in-out; }
-/*.leave .biggest .blok .submiit .btn:hover{ color:#000; }
-.footer .top-block form{ background:#fff; margin:-50px 0 0 0; padding:0 20px 0 20px; box-sizing:border-box; box-shadow:-0.209px -1.989px 38px 0px rgba(0, 0, 0, 0.3); }*/
+.form-section .big-block .form-block .submiit .btn{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin:0; padding:12px 33px 11px 33px; background:#FF5300; border-radius:3; border:1px solid #FF5300; transition:all 0.3s ease-in-out; }
+.form-section .big-block .form-block .submiit .btn:hover{ color:#FF5300; background:transparent; }
 
 
 /*____________________________________________
