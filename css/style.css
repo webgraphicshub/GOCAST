@@ -324,11 +324,11 @@ ul{ padding:0; margin:0; list-style:none; }
 .the-reason .big-block .man-section .man-block .rt-block .bottom{ margin:0; padding:16px 0px 0 0px; display:flex; align-items:center; justify-content:space-between; }
 .the-reason .big-block .man-section .man-block .rt-block .bottom a{ font-family:'Josefin Sans Regular'; font-size:12px; line-height:13px; font-weight:400; color:#FF5300; margin:0; padding:6px 17px 5px 13px; display:inline-block; border:1px solid #FF5300; border-radius:2px; transition:all 0.3s ease-in-out; }
 .the-reason .big-block .man-section .man-block .rt-block .bottom a span{ transform: rotateY(180deg); display:inline-block; margin-left: 10px; }
+.the-reason .big-block .man-section .man-block .rt-block .bottom a span i{ transform: scaleX(1.2); font-size: 10px; }
 .the-reason .big-block .man-section .man-block .rt-block .bottom a:hover{ background:#FF5300; color:#fff; }
 .the-reason .big-block .man-section .man-block .rt-block .bottom h4{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:15px; font-weight:400; color:#222222; margin:0; padding:0; }
 
-transform: scaleX(1.2);
-font-size: 10px;
+
 
 
 .leave{ margin:0; padding:0; }
