@@ -339,20 +339,35 @@ left: 15px; }
 .leave .biggest .blok .submiit{ margin:0 0 0 15px; padding:0 0 43px 0; }
 .leave .biggest .blok .submiit .btn{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin:0; padding:12px 22px 11px 22px; background:#FF5300; border-radius:3; transition:all 0.3s ease-in-out; }
 .leave .biggest .blok .submiit .btn:hover{ color:#000; }
+/*-------Second Blog End-------*/
+
+/*-------Contact Us Start-------*/
+
+.form-section{ margin:0; padding:0 0 60px 0; }
+.form-section .big-block{ margin:-90px 0 0 0; padding:0; }
+.form-section .big-block .form-block{ margin:0 auto; padding:0px 0 0 0; max-width:900px; padding:49px 40px 0 40px; box-sizing:border-box; background:#fff; position:relative; z-index:2; border-radius:8px; box-shadow:0px 0px 22px 0px rgba(0, 0, 0, 0.09); }
+.form-section .big-block .form-block .top-text{ margin:0; padding:0; text-align:center; }
+.form-section .big-block .form-block .top-text h2{ font-family:'Josefin Sans SemiBold'; font-size:32px; line-height:34px; font-weight:600; color:#222222; margin:0; padding:0 0 41px 0; }
 
 
+.form-section .big-block .form-block .form-group{ margin:0 0 50px 0; padding:0; }
+.form-section .big-block .form-block .form-group h3{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#222222; margin:0; padding:0 0 10px 0; }
 
 
-
-
-
-
-
-
-
-
-
-
+.form-section .big-block .form-block .form-group textarea{ height:132px; resize:none; }
+.form-section .big-block .form-block .form-group .form-control{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#222222; margin:0; border:none; border-bottom:1px solid #E5E5E5; padding-left:0; }
+/*.form-section .big-block .form-block .form-group .form-control:focus{ border:1px solid #FF5300; box-shadow:none; }*/
+.form-section .big-block .form-block .form-group .form-control::-webkit-input-placeholder {
+    border-radius: 0; }
+.form-section .big-block .form-block .form-group .form-control:-moz-placeholder {  }
+.form-section .big-block .form-block .form-group .form-control::-moz-placeholder {  }
+.form-section .big-block .form-block .form-group .form-control:-ms-input-placeholder {  }
+.form-section .big-block .form-block .form-group .form-control::-ms-input-placeholder {  }
+.form-section .big-block .form-block .form-group .form-control::placeholder {  }
+.form-section .big-block .form-block .submiit{ margin:0 0 0 15px; padding:0 0 43px 0; }
+.form-section .big-block .form-block .submiit .btn{ font-family:'Josefin Sans Regular'; font-size:14px; line-height:16px; font-weight:400; color:#fff; margin:0; padding:12px 33px 11px 33px; background:#FF5300; border-radius:3; transition:all 0.3s ease-in-out; }
+/*.leave .biggest .blok .submiit .btn:hover{ color:#000; }
+.footer .top-block form{ background:#fff; margin:-50px 0 0 0; padding:0 20px 0 20px; box-sizing:border-box; box-shadow:-0.209px -1.989px 38px 0px rgba(0, 0, 0, 0.3); }*/
 
 
 /*____________________________________________
@@ -395,7 +410,8 @@ body { -webkit-text-size-adjust:none; }
 .subscribe{ padding:40px 0 60px 0; }
 .video .bottom .blockss img{ width:100%; }
 
-
+.form-section{ padding-top:30px; }
+.form-section .big-block{ margin:0; }
 
 }
 @media screen and (max-width: 991px){
@@ -489,6 +505,7 @@ body { -webkit-text-size-adjust:none; }
 .the-reason .big-block .man-section .man-block .rt-block .bottom h4{ margin-top:10px; }
 .the-reason .big-block .man-section .man-block{ padding:0 20px; }
 
+.form-section .big-block .form-block{ padding:49px 15px 0 15px; }
 
 
 }
@@ -533,6 +550,11 @@ body { -webkit-text-size-adjust:none; }
 
 .the-reason .big-block .man-section .man-block{ flex-direction:column; }
 .leave .biggest .blok .form-group.checkbox-section p::before{ top:20px; }
+
+.form-section .big-block .form-block{ padding:49px 5px 0 5px; }
+
+
+
 
 
 
