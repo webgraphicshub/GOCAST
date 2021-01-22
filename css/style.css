@@ -86,7 +86,7 @@ ul{ padding:0; margin:0; list-style:none; }
 
 .navbar-default .rt-block .last-block{ margin:0; padding:0; display:flex; }
 .navbar-default .rt-block .last-block .lt-side{ margin:0 0 0 32px; padding:0; }
-.navbar-default .rt-block .last-block .lt-side a{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#fff; margin:0; padding:11px 35px 10px 35px; border-radius:3px; display:inline-block; background:#FF5300; transition:all .4s ease; }
+.navbar-default .rt-block .last-block .lt-side a{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#fff; margin:0; padding:10px 34px 9px 34px; border-radius:3px; display:inline-block; background:#FF5300; transition:all .4s ease; }
 .navbar-default .rt-block .last-block .lt-side a:hover{ color:#000; }
 .navbar-default .rt-block .last-block .rt-side{ margin:0 0 0 32px; padding:0; }
 .navbar-default .rt-block .last-block .rt-side a{ font-family:'Josefin Sans Regular'; font-size:15px; line-height:17px; font-weight:400; color:#FF5300; margin:0; padding:11px 35px 10px 45px; border-radius:3px; border:1px solid #FF5300; display:inline-block; background:url(../images/paypal-1.png) no-repeat 22px center; transition:all .4s ease; }
@@ -170,6 +170,10 @@ ul{ padding:0; margin:0; list-style:none; }
 .blog-post .big-blocks .blog-box .box a:hover{ color:#fff; background:#FF5300; }
 .blog-post .big-blocks .blog-box .slick-prev.slick-arrow{ text-indent:-9999px; background:none; border:none; background:url(../images/arrow-left.png) no-repeat center; padding:0 10px 0 10px; position:absolute; bottom:0; left:47%; z-index:3; }
 .blog-post .big-blocks .blog-box .slick-next.slick-arrow{ text-indent:-9999px; background:none; border:none; background:url(../images/arrow-right.png) no-repeat center; padding:0 10px 0 10px; position:absolute; bottom:0; right:47%; }
+.blog-post .big-blocks .blog-box .slick-next.slick-arrow:focus{ outline:none; }
+.blog-post .big-blocks .blog-box .slick-prev.slick-arrow:focus{ outline:none; }
+
+
 /* ___________________ Blog Post End _______________________*/
 
 
@@ -473,8 +477,8 @@ body { -webkit-text-size-adjust:none; }
 
 .leave .biggest .blok .form-group.checkbox-section p::before{ top:12px; }
 .programmer .text-block h2{ font-size:26px; line-height:32px; }
-
-
+.man-section .block{ z-index:1; }
+.form-section .big-block{ position:relative; z-index:1; }
 
 }
 
@@ -485,7 +489,7 @@ body { -webkit-text-size-adjust:none; }
 
 .man-section .block .image-section img{ width:100%; }
 .the-reason .big-block .text h2{ padding-bottom:20px; }
-
+.latest-product .big-block{ position:relative; z-index:1; }
 
 }
 
@@ -540,7 +544,7 @@ body { -webkit-text-size-adjust:none; }
 }
 
 @media screen and (max-width:350px){
-
+#menu-icon{ bottom:68px; }
 .navbar-default .rt-block .last-block{ flex-direction:column; }
 .navbar-default .rt-block .last-block .lt-side{ margin:0 0 20px 0; }
 .navbar-default .rt-block .last-block .rt-side{ margin:0; }
